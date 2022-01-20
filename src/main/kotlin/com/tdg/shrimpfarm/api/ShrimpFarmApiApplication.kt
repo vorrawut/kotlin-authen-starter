@@ -1,4 +1,4 @@
-package com.tdg.shrimpfarm.shrimpfarmapi
+package com.tdg.shrimpfarm.api
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication

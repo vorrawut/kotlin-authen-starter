@@ -1,6 +1,6 @@
-package controller
+package com.tdg.shrimpfarm.api.controller
 
-import models.response.FarmResponse
+import com.tdg.shrimpfarm.api.response.FarmResponse
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
