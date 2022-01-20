@@ -31,21 +31,16 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("com.google.cloud:spring-cloud-gcp-starter-pubsub")
-	implementation("com.google.cloud:spring-cloud-gcp-starter-storage")
+//	implementation("com.google.cloud:spring-cloud-gcp-starter-pubsub")
+//	implementation("com.google.cloud:spring-cloud-gcp-starter-storage")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
-	implementation("org.springframework.cloud:spring-cloud-gcp-starter")
+//	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+//	implementation("org.springframework.cloud:spring-cloud-gcp-starter")
 
-
-	implementation ("org.springframework.cloud:spring-cloud-gcp-starter-bigquery:1.2.8.RELEASE")
-
-	// Write CSV Files
-	compile("org.apache.commons:commons-csv:1.8")
-
-	// h2 database
-	compile("com.h2database:h2")
+	//	Bigtable
+	implementation("com.google.cloud:google-cloud-bigtable:2.5.1")
 
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
