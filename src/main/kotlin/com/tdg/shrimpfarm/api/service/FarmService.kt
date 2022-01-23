@@ -16,8 +16,9 @@ import org.springframework.stereotype.Service
 class FarmService {
 
     // Instantiates a client
-    private val projectId = "true-336013"
-    private val instanceId = "shrimp-uat"
+    private val projectId = "tdg-tds-shrimpmaster-prod"
+    //private val projectId = "true-336013"
+    private val instanceId = "shrimpmaster-uat-mim"
     private val tableId = "farm2"
     private var dataClient: BigtableDataClient? = null
     private var adminClient: BigtableTableAdminClient? = null
@@ -66,6 +67,8 @@ class FarmService {
 //        } finally {
 //            dataClient.close()
 //        }
+        createTable()
+        writeToTable()
         readSingleRow()
     }
 

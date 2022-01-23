@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tdg-tds-shrimpmaster-prod",
+  "private_key_id": "dabd1e870362379406997251f31b1b2094257822",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKMX0EHgDdeIZY\ncC47UVAY9uZEnPl2uP+OU0mlbWFeNs+McRRAKeQak6/ymuXizX0H1yYoJ/uIegmr\n1iXcBvUSqmsWlhKP9v2fYu8EWjanbqko/WAi8GSPV0msTE+1OEOC1PGJPwyn7OV1\nUmXEf0U+nS99mSJE0lmhmiOGtjGx3z9UXt6hsXxORgkG5SJ9/NRa61Vygk67ZcIh\nxfSpZDPbo98bvHfoyljVqM9NRgZp9UQyZ5XvwTlI2cININW1gpWsFZqdU5jODeiH\nlOtwjcq2QLUir/ZMOvlLh7666830sU1+Wppn18OEqkKvefWMXfA/yaIlViW35lpa\n67N5eOLjAgMBAAECggEACDgKxOgTUO1dSKsGthKQFvOyWIeo/FJ40OhBzh+sHZBM\nz4CpOhJ52zq1pD73qUiBFJiCTI+TgfC0A/AoidEelSuoPrrK9l8r4Ba9cIfaQOQW\nrDvgdIshC1KZBA/2DX/D/sV5LAMMGKdgjGxVBq/FuM3a6FgZNIL4ccE6QHeXfYtr\nH++5037qAcXgXIbMde+qq0uMefoJdF44VpRkXoOVkxQJ/tOD8fLfsV2i/oK2O8kZ\nE6+E8shEAc8wvhWItDwcTEOfmUnrjUQK8v1zrwM3Q6cAxS5jHG2y/za9SngJs29b\ntMCW2vDf5JaaTcUFBR1075M0JivNubOttTqTR0CjAQKBgQDnHczFxMwyrDoJVzSe\n5LeS6bSm28M9YgYiki3uDPb9HEIMCdX/GKvqh9+UTgGxsUWD4955br+xgCigkZQp\nxD9kVRY+HS4SVJ0ZRM3MEe94jASzrmtWXQtoTsZCL+qc5RlUfpy0HZ/ED/ecBnD4\nGGDqDlSVDCcM7QjB0vsEOT17cQKBgQDf9n0rxcLu2i2elytsFKVLJtB1K0L3XT+m\nyZDS0wN/6L2W1KNSnkMsjRTralihviHUmpYelsyaCPYTI06EkLQmioM35Xpkug5i\n9Rf4gIzOC6ZwhgfdKk2aglrOr2S7GwX9N3L7eeiK2MhIc0lMbl518yxt1MSh33zJ\npSBMrECRkwKBgAYIqiLzq10bT/yUcURAtmY4gcXlcOh2WbCnXlmbrwsWpMbJrvOV\nAlACMh0eGD86YJU76sAC2zBYJzdh9ZtNi1YkPotqmZxS5zMUr8bHJRhhl3HVeOnt\nTfHwNI7fz2E/PfUNxSuSpmwo+o7xQBvKDyWtMBogEhjtS1A8IN+QWwGRAoGBAMqf\nGoerl7y4r2U3pxVVaGYha59V0HQzbQ7cdaYHOrdSPZRkNI7emC+KRE7oG9/ZQIo0\ngXSTQfBqAxc1bigJMrNbxXOgrabLnZBx5Ynx43HWoHJVEHBLgYI0RSuRCzUsMbLx\no5lYpcZYcnr5smrvv44+vwdu46b/pspYFmzHunL5AoGAAZdm9ndpqrZeva1iXY8J\nDJDW7w6G7Gh/KcX4EucXZz7mniL8ta2F5ARogENcT5I/uBWhF5gR54o0alyFX8W8\nU4jJep6RpdldGExJmDsV/TI1teDIqaxeABXKYmDqp+wzQjX9E9z3SE+8YE4b3dLG\nZgSpGhCiiovR/dxQFBAOW70=\n-----END PRIVATE KEY-----\n",
+  "client_email": "shrimp-uat-mim-999@tdg-tds-shrimpmaster-prod.iam.gserviceaccount.com",
+  "client_id": "112201142613891758785",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shrimp-uat-mim-999%40tdg-tds-shrimpmaster-prod.iam.gserviceaccount.com"
+}
