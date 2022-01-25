@@ -1,6 +1,6 @@
 package com.tdg.shrimpfarm.api.controller
 
-import com.tdg.shrimpfarm.api.response.FarmResponse
+import com.tdg.shrimpfarm.api.dtos.response.FarmResponse
 import com.tdg.shrimpfarm.api.service.FarmService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
@@ -15,5 +15,10 @@ class FarmController(val service: FarmService) {
         val farm = FarmResponse(id = "1", name = "farm001")
         service.init()
         return ResponseEntity(farm, HttpStatus.OK)
+    }
+
+    @GetMapping("/api/v1/test")
+    fun blog(): String {
+        return "blog"
     }
 }

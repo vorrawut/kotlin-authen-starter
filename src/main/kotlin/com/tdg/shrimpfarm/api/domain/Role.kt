@@ -2,16 +2,28 @@ package com.tdg.shrimpfarm.api.domain
 
 import javax.persistence.*
 
+
 @Entity
-@Table(name = "app_role")
-class Role(
+@Table(name = "roles")
+class Role {
   @Id
-  @GeneratedValue
-  val id: Int,
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  var id: Int? = null
 
-  @Column(name = "role_name", updatable = false)
-  val roleName: String? = null,
+  @Enumerated(EnumType.STRING)
+  @Column(length = 20)
+  private var name: ERole? = null
 
-  @Column(name = "description", updatable = false)
-  val description: String? = null
-)
+  constructor() {}
+  constructor(name: ERole?) {
+    this.name = name
+  }
+
+  fun getName(): ERole? {
+    return name
+  }
+
+  fun setName(name: ERole?) {
+    this.name = name
+  }
+}

@@ -1,4 +1,4 @@
-package com.tdg.shrimpfarm.api.response
+package com.tdg.shrimpfarm.api.dtos.response
 
 data class FarmResponse(
     val id: String? = null,
