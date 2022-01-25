@@ -1,7 +1,7 @@
 package com.tdg.shrimpfarm.api.repositories
 
-import com.tdg.shrimpfarm.api.domain.ERole
 import com.tdg.shrimpfarm.api.domain.Role
+import com.tdg.shrimpfarm.api.enums.ERole
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 import java.util.*

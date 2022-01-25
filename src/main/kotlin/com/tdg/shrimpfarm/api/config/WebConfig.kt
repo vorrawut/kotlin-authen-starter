@@ -14,7 +14,7 @@ class WebConfig : WebMvcConfigurer {
     override fun addCorsMappings(registry: CorsRegistry) {
         registry.addMapping("/**")
             .allowedOrigins("*")
-            .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE");
+            .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE")
     }
 
     override fun addResourceHandlers(registry: ResourceHandlerRegistry) {

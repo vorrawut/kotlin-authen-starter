@@ -1,17 +1,16 @@
 package com.tdg.shrimpfarm.api.controller
 
-import com.tdg.shrimpfarm.api.domain.ERole
 import com.tdg.shrimpfarm.api.domain.Role
 import com.tdg.shrimpfarm.api.domain.User
-import com.tdg.shrimpfarm.api.dtos.JwtResponse
-import com.tdg.shrimpfarm.api.dtos.LoginRequest
-import com.tdg.shrimpfarm.api.dtos.MessageResponse
-import com.tdg.shrimpfarm.api.dtos.SignupRequest
+import com.tdg.shrimpfarm.api.dtos.request.LoginRequest
+import com.tdg.shrimpfarm.api.dtos.request.SignupRequest
+import com.tdg.shrimpfarm.api.dtos.response.JwtResponse
+import com.tdg.shrimpfarm.api.dtos.response.MessageResponse
+import com.tdg.shrimpfarm.api.enums.ERole
 import com.tdg.shrimpfarm.api.repositories.RoleRepository
 import com.tdg.shrimpfarm.api.repositories.UserRepository
 import com.tdg.shrimpfarm.api.security.JwtUtils
 import com.tdg.shrimpfarm.api.service.UserDetailsImpl
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.http.ResponseEntity
 import org.springframework.security.authentication.AuthenticationManager
@@ -29,11 +28,13 @@ import javax.validation.Valid
 @CrossOrigin(origins = ["*"], maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
-class AuthController(var authenticationManager: AuthenticationManager,
-                     var userRepository: UserRepository,
-                     var roleRepository: RoleRepository,
-                     var jwtUtils: JwtUtils,
-                     @Qualifier("passwordEncoder") var encoder: PasswordEncoder) {
+class AuthController(
+    var authenticationManager: AuthenticationManager,
+    var userRepository: UserRepository,
+    var roleRepository: RoleRepository,
+    var jwtUtils: JwtUtils,
+    @Qualifier("passwordEncoder") var encoder: PasswordEncoder
+) {
 
     @PostMapping("/signin")
     fun authenticateUser(@RequestBody loginRequest: @Valid LoginRequest?): ResponseEntity<*> {

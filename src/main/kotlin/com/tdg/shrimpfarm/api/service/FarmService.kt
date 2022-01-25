@@ -17,6 +17,7 @@ class FarmService {
 
     // Instantiates a client
     private val projectId = "tdg-tds-shrimpmaster-prod"
+
     //private val projectId = "true-336013"
     private val instanceId = "shrimpmaster-uat-mim"
     private val tableId = "farm2"
@@ -54,7 +55,7 @@ class FarmService {
 
         val dataClient = BigtableDataClient.create(projectId, instanceId)
         // Creates a bigtable table admin client.
-        adminClient = BigtableTableAdminClient.create(adminSettings);
+        adminClient = BigtableTableAdminClient.create(adminSettings)
 
 //        try {
 //            // Query a table

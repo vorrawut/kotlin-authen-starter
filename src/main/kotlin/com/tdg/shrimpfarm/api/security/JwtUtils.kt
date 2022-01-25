@@ -11,10 +11,10 @@ import java.util.*
 
 @Component
 class JwtUtils {
-    @Value("\${bezkoder.app.jwtSecret}")
+    @Value("\${app.jwtSecret}")
     private val jwtSecret: String? = null
 
-    @Value("\${bezkoder.app.jwtExpirationMs}")
+    @Value("\${app.jwtExpirationMs}")
     private val jwtExpirationMs = 0
     fun generateJwtToken(authentication: Authentication): String {
         val userPrincipal: UserDetailsImpl = authentication.principal as UserDetailsImpl

@@ -10,5 +10,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 class ShrimpFarmApiApplication
 
 fun main(args: Array<String>) {
-	SpringApplication.run(ShrimpFarmApiApplication::class.java, *args)
+    SpringApplication.run(ShrimpFarmApiApplication::class.java, *args)
 }

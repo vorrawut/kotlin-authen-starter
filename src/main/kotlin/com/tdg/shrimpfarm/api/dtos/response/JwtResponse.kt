@@ -1,4 +1,4 @@
-package com.tdg.shrimpfarm.api.dtos
+package com.tdg.shrimpfarm.api.dtos.response
 
 
 class JwtResponse(

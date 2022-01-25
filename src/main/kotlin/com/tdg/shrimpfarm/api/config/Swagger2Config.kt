@@ -30,6 +30,7 @@ class Swagger2Config {
         authorizationScopes[0] = authorizationScope
         return listOf(SecurityReference("JWT", authorizationScopes))
     }
+
     @Bean
     fun createRestApi(): Docket {
         return Docket(DocumentationType.SWAGGER_2)
